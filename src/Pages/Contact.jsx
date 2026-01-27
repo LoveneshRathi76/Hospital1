@@ -1,0 +1,141 @@
+import {
+  FaMapMarkerAlt,
+  FaPhoneAlt,
+  FaEnvelope,
+  FaClock,
+  FaHospital
+} from "react-icons/fa";
+import MapSection from "./MapSection";
+
+function Contact() {
+  return (
+    <section className="bg-gray-50 min-h-screen py-16">
+      <div className="max-w-7xl mx-auto px-4">
+
+        {/* Header */}
+        <div className="text-center mb-14">
+          <h1 className="text-4xl md:text-5xl font-bold text-blue-600 mb-4">
+            Contact Us
+          </h1>
+          <p className="text-gray-600 max-w-2xl mx-auto">
+            We are here to help you 24×7. Feel free to contact HealthyCare Hospital
+            for appointments, emergencies, or any medical queries.
+          </p>
+        </div>
+
+        {/* Main Grid */}
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+
+          {/* Left: Contact Info */}
+          <div className="bg-white rounded-2xl shadow-lg p-8 space-y-8">
+
+            <h2 className="text-2xl font-semibold text-gray-800 flex items-center gap-3">
+              <FaHospital className="text-blue-600" />
+              HealthyCare Hospital
+            </h2>
+
+            {/* Address */}
+            <div className="flex gap-4">
+              <FaMapMarkerAlt className="text-blue-600 text-2xl mt-1" />
+              <div>
+                <h4 className="font-semibold">Address</h4>
+                <p className="text-gray-600">
+                  Near City Mall, Main Road,<br />
+                  Bulandshahr, Uttar Pradesh – 203001
+                </p>
+              </div>
+            </div>
+
+            {/* Phone */}
+            <div className="flex gap-4">
+              <FaPhoneAlt className="text-blue-600 text-xl mt-1" />
+              <div>
+                <h4 className="font-semibold">Phone</h4>
+                <p className="text-gray-600">+91 98765 43210</p>
+                <p className="text-gray-600">+91 91234 56789</p>
+              </div>
+            </div>
+
+            {/* Email */}
+            <div className="flex gap-4">
+              <FaEnvelope className="text-blue-600 text-xl mt-1" />
+              <div>
+                <h4 className="font-semibold">Email</h4>
+                <p className="text-gray-600">healthycare@gmail.com</p>
+              </div>
+            </div>
+
+            {/* Time */}
+            <div className="flex gap-4">
+              <FaClock className="text-blue-600 text-xl mt-1" />
+              <div>
+                <h4 className="font-semibold">Working Hours</h4>
+                <p className="text-gray-600">24 × 7 Emergency Services</p>
+                <p className="text-gray-600">OPD: 9 AM – 8 PM</p>
+              </div>
+            </div>
+
+          </div>
+
+          {/* Right: Contact Form */}
+          <div className="bg-white rounded-2xl shadow-lg p-8">
+            <h2 className="text-2xl font-semibold mb-6 text-gray-800">
+              Send Us a Message
+            </h2>
+
+            <form className="space-y-6">
+              <div>
+                <label className="block mb-1 text-sm font-medium">Full Name</label>
+                <input
+                  type="text"
+                  placeholder="Enter your name"
+                  className="w-full border rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-600"
+                />
+              </div>
+
+              <div>
+                <label className="block mb-1 text-sm font-medium">Email</label>
+                <input
+                  type="email"
+                  placeholder="Enter your email"
+                  className="w-full border rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-600"
+                />
+              </div>
+
+              <div>
+                <label className="block mb-1 text-sm font-medium">Phone</label>
+                <input
+                  type="tel"
+                  placeholder="Enter phone number"
+                  className="w-full border rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-600"
+                />
+              </div>
+
+              <div>
+                <label className="block mb-1 text-sm font-medium">Message</label>
+                <textarea
+                  rows="4"
+                  placeholder="Write your message"
+                  className="w-full border rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-600"
+                ></textarea>
+              </div>
+
+              <button
+                type="submit"
+                className="bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition"
+              >
+                Send Message
+              </button>
+            </form>
+          </div>
+
+        </div>
+
+        {/* Google Map */}
+       <MapSection/>
+      </div>
+    </section>
+  );
+}
+
+export default Contact;
