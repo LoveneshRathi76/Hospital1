@@ -1,5 +1,6 @@
 import React from "react";
 import aboutImg from "../assets/about.png"; // apni image yaha rakho
+import WhyChooseUs from "../Pages/WhyChooseUs";
 
 const About = () => {
   return (
@@ -58,7 +59,9 @@ const About = () => {
         </div>
 
       </div>
+      <WhyChooseUs/>
     </section>
+    
   );
 };
 

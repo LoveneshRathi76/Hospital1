@@ -1,28 +1,25 @@
 import React from 'react'
-
+import logo from "../assets/logo/logo.jpeg";
 function Footer() {
   return (
     <>
-  <footer class="bg-white lg:grid lg:grid-cols-5">
-  <div class="relative block h-52 lg:col-span-2 lg:h-full">
-    <img src="https://en-media.thebetterindia.com/uploads/2018/12/doctor.jpeg" alt="" class="absolute inset-0 h-full rounded-2xl w-full object-cover"/>
-  </div>
-
-  <div class="px-4 py-16 sm:px-6 lg:col-span-3 lg:px-8">
-    <div class="grid grid-cols-1 gap-8 sm:grid-cols-2">
+  <footer class="bg-white">
+  <div class="mx-auto max-w-7xl space-y-8 px-4 py-16 sm:px-6 lg:space-y-16 lg:px-8">
+    <div class="grid grid-cols-1 gap-8 lg:grid-cols-3">
       <div>
-        <p>
-          <span class="text-xs tracking-wide text-gray-500 uppercase"> Call us </span>
+       <div className="text-teal-600">
+  <img
+    src={logo}   // ya ../assets/logo.png (React structure ke hisaab se)
+    alt="Logo"
+    className="h-15 w-auto"
+  />
+ 
+</div>
 
-          <a href="#" class="block text-2xl font-medium text-gray-900 hover:opacity-75 sm:text-3xl">
-            7302913211
-          </a>
+        <p class="mt-4 max-w-xs text-gray-500">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse non cupiditate quae nam
+          molestias.
         </p>
-
-        <ul class="mt-8 space-y-1 text-sm text-gray-700">
-          <li>Monday to Friday: 10am - 5pm</li>
-          <li>Weekend: 10am - 3pm</li>
-        </ul>
 
         <ul class="mt-8 flex gap-6">
           <li>
@@ -77,7 +74,7 @@ function Footer() {
         </ul>
       </div>
 
-      <div class="grid grid-cols-1 gap-4 sm:grid-cols-2">
+      <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:col-span-2 lg:grid-cols-4">
         <div>
           <p class="font-medium text-gray-900">Services</p>
 
@@ -127,32 +124,52 @@ function Footer() {
             </li>
           </ul>
         </div>
+
+        <div>
+          <p class="font-medium text-gray-900">Helpful Links</p>
+
+          <ul class="mt-6 space-y-4 text-sm">
+            <li>
+              <a href="#" class="text-gray-700 transition hover:opacity-75"> Contact </a>
+            </li>
+
+            <li>
+              <a href="#" class="text-gray-700 transition hover:opacity-75"> FAQs </a>
+            </li>
+
+            <li>
+              <a href="#" class="text-gray-700 transition hover:opacity-75"> Live Chat </a>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <p class="font-medium text-gray-900">Legal</p>
+
+          <ul class="mt-6 space-y-4 text-sm">
+            <li>
+              <a href="#" class="text-gray-700 transition hover:opacity-75"> Accessibility </a>
+            </li>
+
+            <li>
+              <a href="#" class="text-gray-700 transition hover:opacity-75"> Returns Policy </a>
+            </li>
+
+            <li>
+              <a href="#" class="text-gray-700 transition hover:opacity-75"> Refund Policy </a>
+            </li>
+
+            <li>
+              <a href="#" class="text-gray-700 transition hover:opacity-75">
+                Hiring-3 Statistics
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
 
-    <div class="mt-12 border-t border-gray-100 pt-12">
-      <div class="sm:flex sm:items-center sm:justify-between">
-        <ul class="flex flex-wrap gap-4 text-xs">
-          <li>
-            <a href="#" class="text-gray-500 transition hover:opacity-75">
-              Terms &amp; Conditions
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="text-gray-500 transition hover:opacity-75"> Privacy Policy </a>
-          </li>
-
-          <li>
-            <a href="#" class="text-gray-500 transition hover:opacity-75"> Cookies </a>
-          </li>
-        </ul>
-
-        <p class="mt-8 text-xs text-gray-500 sm:mt-0">
-          © 2026. Company Name. All rights reserved.
-        </p>
-      </div>
-    </div>
+    <p class="text-xs text-gray-500">© 2026. Company Name. All rights reserved.</p>
   </div>
 </footer>
 </>

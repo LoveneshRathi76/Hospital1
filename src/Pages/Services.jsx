@@ -1,3 +1,6 @@
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import {
   FaProcedures,        // ICU
   FaHeartbeat,         // CCU / ECG
@@ -43,12 +46,24 @@ const services = [
 ];
 
 function Services() {
+
+  useEffect(() => {
+    AOS.init({
+      duration: 900,
+      once: true,
+      easing: "ease-out-cubic",
+    });
+  }, []);
+
   return (
     <section className="bg-gray-50 py-16">
       <div className="max-w-7xl mx-auto px-4">
 
         {/* Heading */}
-        <div className="text-center mb-14">
+        <div
+          className="text-center mb-14"
+          data-aos="fade-up"
+        >
           <h1 className="text-4xl font-bold text-blue-600 mb-3">
             Our Medical Services
           </h1>
@@ -59,11 +74,13 @@ function Services() {
 
         {/* Services Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
-          {services.map((service) => (
+          {services.map((service, index) => (
             <div
               key={service.id}
-              className="bg-white rounded-xl shadow-md p-6 text-center 
-              hover:shadow-xl hover:-translate-y-2 transition-all duration-300"
+              data-aos="fade-right"
+              data-aos-delay={index * 70}
+              className="bg-white rounded-2xl shadow-md p-6 text-center 
+              hover:shadow-2xl hover:-translate-y-2 transition-all duration-300"
             >
               <div className="text-blue-600 text-5xl mb-4 flex justify-center">
                 {service.icon}

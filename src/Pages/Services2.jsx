@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const services = [
   {
@@ -33,13 +35,26 @@ const services = [
   },
 ];
 
-const Services = () => {
+const Services2 = () => {
+
+  // 🔥 AOS Init
+  useEffect(() => {
+    AOS.init({
+      duration: 900,
+      once: true,
+      easing: "ease-out-cubic",
+    });
+  }, []);
+
   return (
     <section className="py-16 bg-gray-50">
       <div className="max-w-7xl mx-auto px-6">
-        
+
         {/* Heading */}
-        <div className="text-center mb-12">
+        <div
+          className="text-center mb-12"
+          data-aos="fade-up"
+        >
           <h2 className="text-4xl font-bold text-gray-800">
             Our Medical Services
           </h2>
@@ -53,12 +68,19 @@ const Services = () => {
           {services.map((service, index) => (
             <div
               key={index}
-              className="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition duration-300"
+              data-aos="fade-right"   // 👈 mobile me left → right
+              className="bg-white p-8 rounded-xl shadow-md 
+                         hover:shadow-xl hover:-translate-y-2 
+                         transition-all duration-300"
             >
-              <div className="text-5xl mb-4">{service.icon}</div>
+              <div className="text-5xl mb-4">
+                {service.icon}
+              </div>
+
               <h3 className="text-xl font-semibold text-gray-800 mb-3">
                 {service.title}
               </h3>
+
               <p className="text-gray-600 leading-relaxed">
                 {service.desc}
               </p>
@@ -71,4 +93,4 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default Services2;
