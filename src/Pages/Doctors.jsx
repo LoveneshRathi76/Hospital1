@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 // Doctor Images
 import anil from "../assets/doctors/anil.JPG";
-import alka from "../assets/doctors/alka.JPG";
+import alka from "../assets/doctors/alka.png";
 import narendra from "../assets/doctors/narendra.JPG";
 import vijay from "../assets/doctors/vijay.JPG";
 import hoshiyar from "../assets/doctors/hosiyar.JPG";
@@ -139,7 +139,7 @@ function Doctors() {
               onClick={() => setSelectedDoctor(doc)}
               className="cursor-pointer bg-white rounded-2xl shadow-md hover:shadow-2xl transition overflow-hidden"
             >
-              <div className="h-64 bg-gray-100 flex items-center justify-center">
+              <div className="h-64 bg-[#0F2A44] flex items-center justify-center">
                 <img
                   src={doc.image}
                   alt={doc.name}
