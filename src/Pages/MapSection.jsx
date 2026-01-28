@@ -19,7 +19,7 @@ function MapSection() {
           {/* RIGHT : ADDRESS */}
           <div className="bg-white rounded-lg shadow-md p-8">
             <h2 className="text-3xl font-bold text-blue-600 mb-4">
-              HealthyCare Hospital
+              Sanskar Multispecialisy Hospital
             </h2>
 
             <p className="text-gray-600 mb-6">

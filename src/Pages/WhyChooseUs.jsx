@@ -1,11 +1,11 @@
 import React from "react";
 
 // yahan apni images laga dena
-import infraImg from "../assets/about.png";
-import doctorImg from "../assets/about.png";
-import labImg from "../assets/about.png";
-import emergencyImg from "../assets/about.png";
-import affordableImg from "../assets/about.png";
+import infraImg from "../assets/hispitalimage/hr.jpeg";
+import doctorImg from "../assets/hispitalimage/doctor.jpeg";
+import labImg from "../assets/hispitalimage/nicu.jpeg";
+import emergencyImg from "../assets/hispitalimage/247.jpeg";
+import affordableImg from "../assets/hispitalimage/picu.jpeg";
 
 const features = [
   {
