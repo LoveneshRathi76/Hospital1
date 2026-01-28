@@ -10,30 +10,81 @@ import narendra from "../assets/doctors/narendra.png";
 import vijay from "../assets/doctors/vijay.png";
 import hoshiyar from "../assets/doctors/hosiyar.png";
 import pragya from "../assets/doctors/parag.png";
-import lalit from "../assets/doctors/lakshit.png";
+import lakshit from "../assets/doctors/lakshit.png";
 import vivek from "../assets/doctors/vivek.png";
 import ashish from "../assets/doctors/ashish.png";
-import dilip from "../assets/doctors/tp.png";
+import tp from "../assets/doctors/tp.png";
 import rahul from "../assets/doctors/rahul.png";
 import arif from "../assets/doctors/arif.png";
 
 // Doctors Data
 const doctors = [
   {
-    name: "Dr. Anil Chauhan",
-    qualification: "MBBS, MD, PGDCC, FEAC",
-    speciality: "General Medicine",
+    name: "Dr. Anil Kumar",
+    qualification: "MBBS, MD, DCC, (Cardiology)",
+    speciality: "Managing Director",
     image: anil,
     about: "More than 20 years of experience in treating acute and chronic medical diseases with patient-centered care.",
   },
   {
-    name: "Dr. Alka Chauhan",
-    qualification: "MBBS, DGO, DMCH",
-    speciality: "Gynecologist",
+    name: "Dr. Alka",
+    qualification: "MBBS, DGO ",
+    speciality: "Medical Director",
     image: alka,
     about: "Specialist in women's health, pregnancy care, infertility treatment and safe deliveries.",
   },
   {
+    name: "Dr. Arif Kamal",
+    qualification: "MBBS, MS (OrthopedicSurgeon) ",
+    speciality: "Orthopedic Specialist",
+    image: arif,
+    about: "Expert in bone, joint replacement and fracture management.",
+  },
+   {
+    name: "Dr. Parag Agarwal",
+    qualification: "MBBS, MS ,(General Surgeon)",
+    speciality: "General & Laparoscopic Surgeon",
+    image: pragya,
+    about: "Highly skilled in minimally invasive surgeries with faster recovery.",
+  },
+ 
+  {
+    name: "Dr. Vijay Swarup Gautam",
+    qualification: "MBBS, MD, DCH",
+    speciality: "Pediatrician",
+    image: vijay,
+    about: "Caring pediatrician with expertise in newborn and child healthcare.",
+  },
+  {
+    name: "Dr. Hoshiyar Singh",
+    qualification: "MBBS, MD ,(Physician)",
+    speciality: "General Physician",
+    image: hoshiyar,
+    about: "Focused on preventive care, diabetes, BP and lifestyle diseases.",
+  },
+ 
+  {
+    name: "Dr. Lakshit Kumar",
+    qualification: "MBBS, MS (Rhino)",
+    speciality: "ENT Surgeon",
+    image: lakshit,
+    about: "Treats ear, nose and throat disorders using modern techniques.",
+  },
+  {
+    name: "Dr. Vivek Garg",
+    qualification: "MBBS, MS, DNB (Urology)",
+    speciality: "Urologist",
+    image: vivek,
+    about: "Specialist in kidney stone, prostate and urinary problems.",
+  },
+  {
+    name: "Dr. Ashish Acharya",
+    qualification: "MBBS, MS, MCH (NeuroSurgeon)",
+    speciality: "Neuro Surgeon",
+    image: ashish,
+    about: "Expert neurosurgeon handling brain and spine surgeries.",
+  },
+   {
     name: "Dr. Narendra Kumar",
     qualification: "MBBS, DMRD",
     speciality: "Radiologist",
@@ -41,68 +92,20 @@ const doctors = [
     about: "Expert in advanced imaging including X-ray, ultrasound, CT and accurate diagnostics.",
   },
   {
-    name: "Dr. Vijay Sharma",
-    qualification: "MD, DCH",
-    speciality: "Child Specialist",
-    image: vijay,
-    about: "Caring pediatrician with expertise in newborn and child healthcare.",
-  },
-  {
-    name: "Dr. Hoshiyar Singh",
-    qualification: "MBBS, MD",
-    speciality: "General Physician",
-    image: hoshiyar,
-    about: "Focused on preventive care, diabetes, BP and lifestyle diseases.",
-  },
-  {
-    name: "Dr. Pragya Agarwal",
-    qualification: "MBBS, MS",
-    speciality: "Laparoscopic Surgeon",
-    image: pragya,
-    about: "Highly skilled in minimally invasive surgeries with faster recovery.",
-  },
-  {
-    name: "Dr. Lalit Singh",
-    qualification: "MBBS, MS",
-    speciality: "ENT Specialist",
-    image: lalit,
-    about: "Treats ear, nose and throat disorders using modern techniques.",
-  },
-  {
-    name: "Dr. Vivek Garg",
-    qualification: "MBBS, MS, DNB",
-    speciality: "Urologist",
-    image: vivek,
-    about: "Specialist in kidney stone, prostate and urinary problems.",
-  },
-  {
-    name: "Dr. Ashish Acharya",
-    qualification: "MBBS, MS, MCh",
-    speciality: "Neuro Surgeon",
-    image: ashish,
-    about: "Expert neurosurgeon handling brain and spine surgeries.",
-  },
-  {
-    name: "Dr. Dilip Singh",
+    name: "Dr. T.V. Singh",
     qualification: "MBBS, MD",
     speciality: "Critical Care Specialist",
-    image: dilip,
+    image: tp,
     about: "Manages ICU patients with advanced life-support care.",
   },
   {
     name: "Dr. Rahul Gupta",
     qualification: "MD, DNB",
-    speciality: "TB & Chest Specialist",
+    speciality: "Pulmonologist",
     image: rahul,
     about: "Specialist in lung diseases, TB and respiratory care.",
   },
-  {
-    name: "Dr. Arif Kamal",
-    qualification: "MBBS, MS",
-    speciality: "Orthopedic Specialist",
-    image: arif,
-    about: "Expert in bone, joint replacement and fracture management.",
-  },
+  
 ];
 
 function Doctors() {

@@ -18,7 +18,7 @@ function Contact() {
             Contact Us
           </h1>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            We are here to help you 24×7. Feel free to contact HealthyCare Hospital
+            We are here to help you 24×7. Feel free to contact Sanskar Multispecialisy Hospital
             for appointments, emergencies, or any medical queries.
           </p>
         </div>
@@ -31,7 +31,7 @@ function Contact() {
 
             <h2 className="text-2xl font-semibold text-gray-800 flex items-center gap-3">
               <FaHospital className="text-blue-600" />
-              HealthyCare Hospital
+              Sanskar Multispecialisy Hospital
             </h2>
 
             {/* Address */}
@@ -51,8 +51,8 @@ function Contact() {
               <FaPhoneAlt className="text-blue-600 text-xl mt-1" />
               <div>
                 <h4 className="font-semibold">Phone</h4>
-                <p className="text-gray-600">+91 98765 43210</p>
-                <p className="text-gray-600">+91 91234 56789</p>
+                <p className="text-gray-600">+91 5732355833</p>
+                <p className="text-gray-600">+91 9536183777</p>
               </div>
             </div>
 
@@ -71,7 +71,7 @@ function Contact() {
               <div>
                 <h4 className="font-semibold">Working Hours</h4>
                 <p className="text-gray-600">24 × 7 Emergency Services</p>
-                <p className="text-gray-600">OPD: 9 AM – 8 PM</p>
+                <p className="text-gray-600">Open Time - 10 AM </p>
               </div>
             </div>
 

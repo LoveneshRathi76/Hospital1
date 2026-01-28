@@ -3,6 +3,7 @@ import HeroSlider from './HeroSlider'
 import MapSection from './MapSection';
 import Services from './Services2';
 import Rating from './Rating';
+import WhyChooseUs2 from './WhyChooseUs2';
 
 
 function Home() {
@@ -12,7 +13,7 @@ function Home() {
 
         <HeroSlider />
         <Services/>
-       
+       <WhyChooseUs2/>
         <MapSection />
         <Rating/>
       </>
