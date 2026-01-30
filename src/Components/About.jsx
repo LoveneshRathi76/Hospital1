@@ -26,11 +26,11 @@ const About = () => {
 
             <p className="text-gray-600 text-lg mb-4">
               Sanskar Hospital has been providing quality healthcare services
-              to the community since <span className="font-semibold">2008</span>.
+              to the community since <span className="font-semibold">2015</span>.
             </p>
 
             <p className="text-gray-600 mb-4">
-              With over <span className="font-semibold">15+ years of experience</span>,
+              With over <span className="font-semibold">10+ years of experience</span>,
               we are committed to delivering advanced medical care with compassion,
               integrity, and excellence.
             </p>
@@ -40,8 +40,7 @@ const About = () => {
                 🎯 Our Mission
               </h3>
               <p className="text-gray-600">
-                To provide affordable, accessible, and high-quality healthcare
-                while treating every patient with dignity and care.
+                To become a truly professional healthcare organization in super-specialty & tertiary care leading in new generation technology & best standard quality of medical services to strata of society which is deprived either because of poverty or non-availability of such facilities.
               </p>
             </div>
 
@@ -50,8 +49,15 @@ const About = () => {
                 🌟 Our Vision
               </h3>
               <p className="text-gray-600">
-                To become a trusted healthcare leader by continuously improving
-                medical services and patient satisfaction.
+                To build first class patient focused services on high quality & evidence based medical practice throughout the organisation of highly trained & qualified staff with zeal of continuously improving & up-gradation of knowledge level by regular training program to Accumen the skill. At present we started our hospital with 47 beds and we will fulfill 100 shortly.
+              </p>
+            </div>
+             <div>
+              <h3 className="text-xl font-semibold text-gray-800 mb-2">
+                🌟 Our Quality
+              </h3>
+              <p className="text-gray-600">
+                A dedicated highly trained team of doctors & co-workers working in state of Art infrastructure in amalgamation with latest Gazettes in health care technology
               </p>
             </div>
 

@@ -7,10 +7,10 @@ import emergency from "../assets/hispitalimage/247.jpeg";
 import technology from "../assets/hispitalimage/nicu.jpeg";
 import care from "../assets/hispitalimage/Pasent.jpeg";
 import affordable from "../assets/hispitalimage/picu.jpeg";
-
+import Ambulance2 from "../assets/hispitalimage/2478.jpeg";
 const WhyChooseUs2 = () => {
   useEffect(() => {
-    AOS.init({
+    AOS.init({ 
       duration: 1000,
       once: true,
     });
@@ -42,6 +42,12 @@ const WhyChooseUs2 = () => {
       desc: "Quality healthcare services at budget-friendly prices.",
       img: affordable,
     },
+    {
+      title: "24*7 Ambulance",
+      desc: "Ambulance service available 24*7.",
+      img: Ambulance2,
+    }
+    
   ];
 
   return (

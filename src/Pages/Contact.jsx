@@ -18,7 +18,7 @@ function Contact() {
             Contact Us
           </h1>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            We are here to help you 24×7. Feel free to contact Sanskar Multispecialisy Hospital
+            We are here to help you 24×7. Feel free to contact Sanskar Multispeciality Hospital
             for appointments, emergencies, or any medical queries.
           </p>
         </div>
@@ -31,7 +31,7 @@ function Contact() {
 
             <h2 className="text-2xl font-semibold text-gray-800 flex items-center gap-3">
               <FaHospital className="text-blue-600" />
-              Sanskar Multispecialisy Hospital
+              Sanskar Multispeciality Hospital
             </h2>
 
             {/* Address */}
@@ -40,7 +40,7 @@ function Contact() {
               <div>
                 <h4 className="font-semibold">Address</h4>
                 <p className="text-gray-600">
-                  Sanskar Multispecialisy Hospital, Main Road,<br />
+                  394, Civil lines, Malka park , Kala Aam,<br />
                   Bulandshahr, Uttar Pradesh – 203001
                 </p>
               </div>
@@ -74,7 +74,7 @@ function Contact() {
               <FaEnvelope className="text-blue-600 text-xl mt-1" />
               <div>
                 <h4 className="font-semibold">Email</h4>
-                <p className="text-gray-600">SanskarMultispecialisyHospital@gmail.com</p>
+                <p className="text-gray-600">sanskarhospitalbsr@gmail.com</p>
               </div>
             </div>
 

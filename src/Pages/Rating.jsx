@@ -1,36 +1,40 @@
 import React from "react";
-
+import img1 from "../assets/Ratingimg/img1.jpeg";
+import img2 from "../assets/Ratingimg/img2.jpeg";
+import img3 from "../assets/Ratingimg/img3.jpeg";
+import img4 from "../assets/Ratingimg/img4.jpeg";
+import img5 from "../assets/Ratingimg/img5.jpeg";
 function Reviews() {
   const reviews = [
     {
       name: "Rohit Sharma",
       rating: 5,
       comment: "Doctors are very professional and supportive.",
-      image: "https://i.pravatar.cc/100?img=12",
+      image: img1,
     },
     {
-      name: "Pooja Verma",
+      name: "Yash Verma",
       rating: 4,
       comment: "Clean hospital and polite staff. Good experience overall.",
-      image: "https://i.pravatar.cc/100?img=32",
+      image: img2,
     },
     {
       name: "Amit Singh",
       rating: 5,
       comment: "Emergency services are excellent and fast.",
-      image: "https://i.pravatar.cc/100?img=45",
+      image: img3,
     },
     {
-      name: "Neha Agarwal",
+      name: "Rahul Agarwal",
       rating: 4,
       comment: "Doctors explained everything very clearly.",
-      image: "https://i.pravatar.cc/100?img=47",
+      image: img4,
     },
     {
       name: "Sanjay Kumar",
       rating: 5,
       comment: "Best hospital in this area. Highly recommended.",
-      image: "https://i.pravatar.cc/100?img=68",
+      image: img5,
     },
   ];
 

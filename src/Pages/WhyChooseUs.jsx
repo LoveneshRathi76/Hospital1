@@ -38,6 +38,13 @@ const features = [
     desc: "High-quality healthcare services offered at affordable prices without compromising treatment quality.",
     image: affordableImg,
   },
+  
+  {
+    icon: "🚑",
+    title: "24×7 Ambulance",
+    desc: "Round-the-clock emergency services with ICU, ambulance support and rapid medical response.",
+    image: emergencyImg,
+  }
 ];
 
 const WhyChooseUs = () => {
@@ -51,8 +58,8 @@ const WhyChooseUs = () => {
             Why Choose Our Hospital
           </h2>
           <p className="text-gray-600 mt-4 max-w-2xl mx-auto">
-            We combine advanced technology, expert doctors and compassionate care
-            to deliver trusted healthcare services.
+            When it comes to choosing a hospital, one thing is clear: quality counts first. With more than one decade of tradition, excellence and quality in providing medical care in a comfortable and convenient environment, we at Sanskar Multispeciality Hospital bring peace of mind for the thousands of patients we care about every day with the help of our doctors, specialist, nurses and paramedical staff.
+           <br /> We focus on offering a wide range of consistent high quality and up-to-date medical services that allow us to improve the health of the communities we serve with compassion and sensitivity to the individual needs of our patients and their families. Sanskar Multispeciality Hospital was established by Dr. Anil Chauhan & Dr Alka Chauhan, after its establishment & in no time the hospital has established itself as one of the premiere centre providing excellent out patient services and surgery. After years of service, our dream is to provide the excellent care to a larger mass affected in the vision and subsequent establishment of Sanskar Hospital.
           </p>
         </div>
 

@@ -19,7 +19,7 @@ function MapSection() {
           {/* RIGHT : ADDRESS */}
           <div className="bg-white rounded-lg shadow-md p-8">
             <h2 className="text-3xl font-bold text-blue-600 mb-4">
-              Sanskar Multispecialisy Hospital
+              Sanskar Multispeciality Hospital
             </h2>
 
             <p className="text-gray-600 mb-6">
@@ -31,19 +31,19 @@ function MapSection() {
               <div className="flex items-start gap-3">
                 <FaMapMarkerAlt className="text-blue-600 mt-1" />
                 <p>
-                  Near City Center, Bulandshahr,  
+                 394, Civil lines, Malka park , Kala Aam Bulandshahr,  
                   Uttar Pradesh – 203001
                 </p>
               </div>
 
               <div className="flex items-center gap-3">
                 <FaPhoneAlt className="text-blue-600" />
-                <p>+91 98765 43210</p>
+                <p>+91 9536216777</p>
               </div>
 
               <div className="flex items-center gap-3">
                 <FaEnvelope className="text-blue-600" />
-                <p>contact@healthycarehospital.com</p>
+                <p>sanskarhospitalbsr@gmail.com</p>
               </div>
             </div>
 

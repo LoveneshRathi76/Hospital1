@@ -16,9 +16,8 @@ function Footer() {
 
               </div>
 
-              <p class="mt-4 max-w-xs text-gray-500">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse non cupiditate quae nam
-                molestias.
+              <p class="mt-4 max-w-xs text-[#1D7A74] text-2xl">
+                Sanskar Multispeciality Hospital
               </p>
 
               <ul class="mt-8 flex gap-6">
@@ -80,33 +79,33 @@ function Footer() {
 
                 <ul class="mt-6 space-y-4 text-sm">
                   <li>
-                    <a href="#" class="text-gray-700 transition hover:opacity-75"> 1on1 Coaching </a>
+                    <a href="#" class="text-gray-700 transition hover:opacity-75"> Clinical Service </a>
                   </li>
 
                   <li>
-                    <a href="#" class="text-gray-700 transition hover:opacity-75"> Company Review </a>
+                    <a href="#" class="text-gray-700 transition hover:opacity-75"> General Physician </a>
                   </li>
 
                   <li>
                     <a href="#" class="text-gray-700 transition hover:opacity-75">
-                      Accounts Review
+                      Supportive Service
                     </a>
                   </li>
 
                   <li>
-                    <a href="#" class="text-gray-700 transition hover:opacity-75"> HR Consulting </a>
+                    <a href="#" class="text-gray-700 transition hover:opacity-75"> Digital Integration</a>
                   </li>
 
                   <li>
                     <a href="#" class="text-gray-700 transition hover:opacity-75">
-                      SEO Optimisation
+                      Baby Care
                     </a>
                   </li>
                 </ul>
               </div>
 
               <div>
-                <p class="font-medium text-gray-900">Company</p>
+                <p class="font-medium text-gray-900"> Information</p>
 
                 <ul class="mt-6 space-y-4 text-sm">
                   <li>
@@ -134,11 +133,11 @@ function Footer() {
                   </li>
 
                   <li>
-                    <a href="#" class="text-gray-700 transition hover:opacity-75"> FAQs </a>
+                    <a href="#" class="text-gray-700 transition hover:opacity-75"> Appointment </a>
                   </li>
 
                   <li>
-                    <a href="#" class="text-gray-700 transition hover:opacity-75"> Live Chat </a>
+                    <a href="#" class="text-gray-700 transition hover:opacity-75"> Services </a>
                   </li>
                 </ul>
               </div>
@@ -166,7 +165,7 @@ function Footer() {
 
                   {/* ✉️ Gmail Message Button */}
                   <a
-                    href="mailto:hospital@gmail.com?subject=Appointment%20Request&body=Hello%20Hospital%20Team,"
+                    href="mailto:sanskarhospitalbsr@gmail.com?subject=Appointment%20Request&body=Hello%20Hospital%20Team,"
                     className="inline-block mt-3 px-4 py-2 bg-blue-500 text-white rounded hover:bg-red-600"
                   >
                     ✉️ Send Email

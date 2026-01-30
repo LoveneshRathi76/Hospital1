@@ -12,7 +12,7 @@ function Navbar() {
           <div className="flex items-center gap-3">
             <img src={logo} className="w-10 h-10" />
             <h1 className="text-xl font-bold text-[#1D7A74]">
-              Sanskar Multispecialisy Hospital
+              Sanskar Multispeciality Hospital
             </h1>
           </div>
 
@@ -54,15 +54,7 @@ function Navbar() {
               <span
                 className=" absolute  left-0 -bottom-1  h-[2px] w-0 bg-blue-600 transition-all duration-300 group-hover:w-full" ></span>
             </li>
-          <li className="relative group">
-              <Link to="/Appointment" className=" inline-block transition-all duration-300 hover:text-blue-600 group-hover:-translate-y-1 " >
-                Appointment
-              </Link>
-
-              {/* underline */}
-              <span
-                className=" absolute  left-0 -bottom-1  h-[2px] w-0 bg-blue-600 transition-all duration-300 group-hover:w-full" ></span>
-            </li>
+         
              <li className="relative group">
               <Link to="/contact" className=" inline-block transition-all duration-300 hover:text-blue-600 group-hover:-translate-y-1 " >
                Contact

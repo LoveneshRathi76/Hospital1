@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import img1 from "../assets/slideimg/slide1.jpg";
-import img2 from "../assets/slideimg/slide2.jpg";
+import img1 from "../assets/slideimg/slide1.jpeg";
+import img2 from "../assets/slideimg/slide2.jpeg";
 import img3 from "../assets/slideimg/slide3.jpg";
 import { Link } from "react-router-dom";
 const slides = [
@@ -63,7 +63,7 @@ function HeroSlider() {
                   Book Appointment
                 </button>
               </Link>
-              <a href="tel:+917302913211">
+              <a href="tel:+919536216777">
                 <button className="bg-white text-black px-6 py-3 rounded hover:bg-gray-200 transition cursor-pointer">
                   Emergency Call
                 </button>

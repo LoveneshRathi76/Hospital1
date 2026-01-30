@@ -145,7 +145,7 @@ function Doctors() {
                          hover:shadow-2xl hover:-translate-y-3
                          transition-all duration-300 overflow-hidden"
             >
-              <div className="h-70 bg-[#9e9e9e] flex items-center justify-center">
+              <div className="h-70 bg-[#1d7a74] flex items-center justify-center">
                 <img
                   src={doc.image}
                   alt={doc.name}
@@ -156,7 +156,7 @@ function Doctors() {
               <div className="p-5 text-center">
                 <h3 className="font-bold text-lg">{doc.name}</h3>
                 <p className="text-sm text-gray-500">{doc.qualification}</p>
-                <span className="inline-block mt-3 bg-[#1D7A74] text-white px-5 py-2 rounded-xl text-xs">
+                <span className="inline-block mt-3 bg-[#1d7a74] text-white px-5 py-2 rounded-xl text-xs">
                   {doc.speciality}
                 </span>
               </div>

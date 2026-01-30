@@ -1,5 +1,5 @@
 import { useState } from "react";
-import appointmentImg from "../assets/slideimg/slide1.jpg";
+import appointmentImg from "../assets/slideimg/slide1.jpeg";
 
 function Appointment() {
   const [form, setForm] = useState({
