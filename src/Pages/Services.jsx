@@ -21,6 +21,7 @@ import  Bronchoscopy from "../assets/Services/Bronchoscopy.jpg";
 import  Digital from "../assets/Services/Digital Xray.jpg";
 import  TMT from "../assets/Services/TMT.jpg";
 import  Holter from "../assets/Services/Holter.jpg";
+import  Canteen from "../assets/Services/Canteen.jpeg";
 import {
   FaProcedures,
   FaHeartbeat,
@@ -56,7 +57,7 @@ const services = [
     shortDesc: "Cardiac critical care unit.",
     image: ccu,
     fullDesc:
-      "Dedicated cardiac care unitre unit with ECG, TMT, Holter monitorinDedicated cardiac care unit re unit with ECG, TMT, Holter monitorinDedicated cardiac care unit re unit with ECG, TMT, Holter monitorinDedicated cardiac care unit  with ECG, TMT, Holter monitorinDedicated care unit with ECG, TMT, Holter monitorinDedicated cardiac care unit re unit with ECG, TMT, Holter monitorinDedicated cardiac care unit rdiac care unit with ECG, TMT, Holter monitoring and expert cardiologists available 24×7."
+      "Cardiac critical care unit from industrial processes or the atmosphere into valuable products like chemicals, fuels, and construction materials. This approach reduces net emissions, supports a circular carbon economy, and provides a sustainable alternative to fossil resources."
   },
   {
     id: 3,
@@ -219,6 +220,15 @@ const services = [
     image: Ambuance,
     fullDesc:
       "Fully equipped ambulance with trained staff available anytime."
+  },
+  {
+    id: 20,
+    name: "24×7 Canteen",
+   
+    shortDesc: "Canteen Service",
+    image: Canteen,
+    fullDesc:
+      "Canteen used for purchasing subsidezed goods digital point of sale service."
   }
 ];
 

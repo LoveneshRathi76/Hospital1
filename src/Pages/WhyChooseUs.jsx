@@ -6,12 +6,13 @@ import doctorImg from "../assets/hispitalimage/doctor.jpeg";
 import labImg from "../assets/hispitalimage/nicu.jpeg";
 import emergencyImg from "../assets/hispitalimage/247.jpeg";
 import affordableImg from "../assets/hispitalimage/picu.jpeg";
-
+import Ambulance from "../assets/hispitalimage/2478.jpeg";
+import Card from "../assets/hispitalimage/Card.jpeg";
 const features = [
   {
     icon: "🏥",
-    title: "Advanced Infrastructure",
-    desc: "State-of-the-art medical equipment and modern facilities ensuring accurate diagnosis and world-class treatment experience.",
+    title: "H.R. CABINE",
+    desc: "HR departments require concise, professional communication for recruitment, onboarding, and  key ôf management.",
     image: infraImg,
   },
   {
@@ -38,12 +39,18 @@ const features = [
     desc: "High-quality healthcare services offered at affordable prices without compromising treatment quality.",
     image: affordableImg,
   },
-  
+
   {
     icon: "🚑",
     title: "24×7 Ambulance",
     desc: "Round-the-clock emergency services with ICU, ambulance support and rapid medical response.",
-    image: emergencyImg,
+    image: Ambulance,
+  },
+  {
+    icon: "🏥",
+    title: "Ayushman Cabine",
+    desc: "The Ayushman Bharat - Pradhan Mantri Jan Arogya Yojana (AB PM-JAY), commonly known as the Ayushman Card scheme, is one of the world's largest health assurance schemes, providing significant financial relief for healthcare expenses in India Here are the key points regarding the Ayushman Card based on the latest information:",
+image: Card,
   }
 ];
 
@@ -59,7 +66,7 @@ const WhyChooseUs = () => {
           </h2>
           <p className="text-gray-600 mt-4 max-w-2xl mx-auto">
             When it comes to choosing a hospital, one thing is clear: quality counts first. With more than one decade of tradition, excellence and quality in providing medical care in a comfortable and convenient environment, we at Sanskar Multispeciality Hospital bring peace of mind for the thousands of patients we care about every day with the help of our doctors, specialist, nurses and paramedical staff.
-           <br /> We focus on offering a wide range of consistent high quality and up-to-date medical services that allow us to improve the health of the communities we serve with compassion and sensitivity to the individual needs of our patients and their families. Sanskar Multispeciality Hospital was established by Dr. Anil Chauhan & Dr Alka Chauhan, after its establishment & in no time the hospital has established itself as one of the premiere centre providing excellent out patient services and surgery. After years of service, our dream is to provide the excellent care to a larger mass affected in the vision and subsequent establishment of Sanskar Hospital.
+            <br /> We focus on offering a wide range of consistent high quality and up-to-date medical services that allow us to improve the health of the communities we serve with compassion and sensitivity to the individual needs of our patients and their families. Sanskar Multispeciality Hospital was established by Dr. Anil Chauhan & Dr Alka Chauhan, after its establishment & in no time the hospital has established itself as one of the premiere centre providing excellent out patient services and surgery. After years of service, our dream is to provide the excellent care to a larger mass affected in the vision and subsequent establishment of Sanskar Hospital.
           </p>
         </div>
 

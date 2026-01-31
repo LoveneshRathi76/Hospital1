@@ -1,13 +1,16 @@
 import { useEffect, useState } from "react";
 import img1 from "../assets/slideimg/slide1.jpeg";
 import img2 from "../assets/slideimg/slide2.jpeg";
-import img3 from "../assets/slideimg/slide3.jpg";
+import img5 from "../assets/slideimg/CCU2.jpeg";
+import img3 from "../assets/slideimg/OT 1.jpeg";
+import img4 from "../assets/slideimg/NICU.jpeg";
+
 import { Link } from "react-router-dom";
 const slides = [
   {
     image: img1,
-    title: "HealthyCare Hospital",
-    subtitle: "Trusted Healthcare for Your Family",
+    title: "Sanskar Multispeciality Hospital",
+    subtitle: "Trusted Sanskar Multispeciality Hospital for Your Family",
   },
   {
     image: img2,
@@ -19,6 +22,17 @@ const slides = [
     title: "Expert Doctors & Modern Care",
     subtitle: "Your Health Is Our Priority",
   },
+   {
+    image: img4,
+    title: "Expert Doctors & Modern Care",
+    subtitle: "Your Health Is Our Priority",
+  },
+   {
+    image: img5,
+    title: "Expert Doctors & Modern Care",
+    subtitle: "Your Health Is Our Priority",
+  },
+   
 ];
 
 function HeroSlider() {

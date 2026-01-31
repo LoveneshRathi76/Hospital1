@@ -49,23 +49,23 @@ function Contact() {
             {/* Phone */}
             <div className="flex gap-4">
               <FaPhoneAlt className="text-blue-600 text-xl mt-1" />
-             <div>
-  <h4 className="font-semibold">Phone</h4>
+              <div>
+                <h4 className="font-semibold">Phone</h4>
 
-  <a
-    href="tel:+915732355833"
-    className="block text-gray-600 hover:text-blue-600 cursor-pointer"
-  >
-    +91 5732355833
-  </a>
+                <a
+                  href="tel:+915732355833"
+                  className="block text-gray-600 hover:text-blue-600 cursor-pointer"
+                >
+                  +91 5732355833
+                </a>
 
-  <a
-    href="tel:+919536183777"
-    className="block text-gray-600 hover:text-blue-600 cursor-pointer"
-  >
-    +91 9536183777
-  </a>
-</div>
+                <a
+                  href="tel:+919536183777"
+                  className="block text-gray-600 hover:text-blue-600 cursor-pointer"
+                >
+                  +91 9536183777
+                </a>
+              </div>
 
             </div>
 
@@ -85,7 +85,7 @@ function Contact() {
                 <h4 className="font-semibold">Working Hours</h4>
                 <p className="text-gray-600">24 × 7 Emergency Services</p>
                 <p className="text-gray-600">Open Time - 10 AM </p>
-                 <p className="text-gray-600">Monday to Saturday </p>
+                <p className="text-gray-600">Monday to Saturday </p>
               </div>
             </div>
 
@@ -146,7 +146,7 @@ function Contact() {
         </div>
 
         {/* Google Map */}
-       <MapSection/>
+        <MapSection />
       </div>
     </section>
   );
