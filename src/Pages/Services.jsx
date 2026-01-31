@@ -303,6 +303,7 @@ function Services() {
 
             {/* Image */}
             <img
+            loading="lazy"
               src={selectedService.image}
               alt={selectedService.name}
               className="w-full h-76 object-cover"

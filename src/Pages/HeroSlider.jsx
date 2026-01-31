@@ -57,6 +57,7 @@ function HeroSlider() {
         >
           {/* Background Image */}
           <img
+          loading="lazy"
             src={slide.image}
             alt="Hospital"
             className="w-full h-full object-cover"

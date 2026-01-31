@@ -80,6 +80,7 @@ const WhyChooseUs = () => {
             {/* IMAGE */}
             <div className={`${index % 2 !== 0 ? "lg:order-2" : ""}`}>
               <img
+                loading="lazy"
                 src={item.image}
                 alt={item.title}
                 className="rounded-3xl shadow-2xl w-full h-[420px] object-cover"

@@ -10,7 +10,7 @@ function Navbar() {
       <nav className="bg-white shadow-md px-6 py-4 relative z-50">
         <div className="flex justify-between items-center">
           <div className="flex items-center gap-3">
-            <img src={logo} className="w-10 h-10" />
+            <img loading="lazy" src={logo} className="w-10 h-10" />
             <h1 className="text-xl font-bold text-[#1D7A74]">
               Sanskar Multispeciality Hospital
             </h1>

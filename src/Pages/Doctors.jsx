@@ -147,6 +147,7 @@ function Doctors() {
             >
               <div className="h-70 bg-[#1d7a74] flex items-center justify-center">
                 <img
+                loading="lazy"
                   src={doc.image}
                   alt={doc.name}
                   className="h-full object-contain scale-95 hover:scale-100 transition duration-300"

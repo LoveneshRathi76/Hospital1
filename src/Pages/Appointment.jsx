@@ -66,6 +66,7 @@ ${form.message}
           {/* Image */}
           <div className="md:w-1/2">
             <img
+            loading="lazy"
               src={appointmentImg}
               alt="Hospital Appointment"
               className="rounded-xl shadow-lg w-full"

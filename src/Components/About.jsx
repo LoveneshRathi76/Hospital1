@@ -12,6 +12,7 @@ const About = () => {
           {/* Image */}
           <div className="md:w-1/2">
             <img
+            loading="lazy"
               src={aboutImg}
               alt="About Hospital"
               className="rounded-2xl shadow-lg w-full"

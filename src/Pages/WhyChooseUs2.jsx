@@ -82,6 +82,7 @@ const WhyChooseUs2 = () => {
             >
               {/* Image */}
               <img
+              loading="lazy"
                 src={card.img}
                 alt={card.title}
                 className="w-full h-48 object-cover"

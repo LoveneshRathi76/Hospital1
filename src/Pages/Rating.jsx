@@ -62,6 +62,7 @@ function Reviews() {
               {/* User Info */}
               <div className="flex items-center gap-4 mb-3">
                 <img
+                loading="lazy"
                   src={r.image}
                   alt={r.name}
                   className="w-12 h-12 rounded-full object-cover border"
