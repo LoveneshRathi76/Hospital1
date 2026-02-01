@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
-import img1 from "../assets/slideimg/slide1.jpeg";
-import img2 from "../assets/slideimg/slide2.jpeg";
-import img5 from "../assets/slideimg/CCU2.jpeg";
-import img3 from "../assets/slideimg/OT 1.jpeg";
-import img4 from "../assets/slideimg/NICU.jpeg";
+import img1 from "../assets/slideimg/slide1.webp";
+import img2 from "../assets/slideimg/slide2.webp";
+import img5 from "../assets/slideimg/CCU2.webp";
+import img3 from "../assets/slideimg/OT 1.webp";
+import img4 from "../assets/slideimg/NICU.webp";
 
 import { Link } from "react-router-dom";
 const slides = [

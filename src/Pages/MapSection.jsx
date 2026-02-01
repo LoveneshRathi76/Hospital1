@@ -8,12 +8,15 @@ function MapSection() {
 
           {/* LEFT : MAP */}
           <div className="w-full h-[350px] md:h-[400px] rounded-lg overflow-hidden shadow-md">
-            <iframe
-              title="Hospital Location"
-              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d889.9247612191177!2d77.85029!3d28.406167!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ca6b2d3762f9f%3A0xb765812f63846582!2sSanskar%20Multispeciality%20Hospital!5e1!3m2!1sen!2sin!4v1769150326154!5m2!1sen!2sin"
-              className="w-full h-full border-0"
-              loading="lazy"
-            ></iframe>
+     <iframe
+  title="Hospital Location"
+  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d889.9247612191177!2d77.85029!3d28.406167!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ca6b2d3762f9f%3A0xb765812f63846582!2sSanskar%20Multispeciality%20Hospital!5e1!3m2!1sen!2sin!4v1769150326154!5m2!1sen!2sin"
+  className="w-full border-0 rounded-xl"
+  height="350"
+  loading="lazy"
+  referrerPolicy="no-referrer-when-downgrade"
+></iframe>
+
           </div>
 
           {/* RIGHT : ADDRESS */}

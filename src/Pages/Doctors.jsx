@@ -4,18 +4,18 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 // Doctor Images
-import anil from "../assets/doctors/anil.png";
-import alka from "../assets/doctors/alka.png";
-import narendra from "../assets/doctors/narendra.png";
-import vijay from "../assets/doctors/vijay.png";
-import hoshiyar from "../assets/doctors/hosiyar.png";
-import pragya from "../assets/doctors/parag.png";
-import lakshit from "../assets/doctors/lakshit.png";
-import vivek from "../assets/doctors/vivek.png";
-import ashish from "../assets/doctors/ashish.png";
-import tp from "../assets/doctors/tp.png";
-import rahul from "../assets/doctors/rahul.png";
-import arif from "../assets/doctors/arif.png";
+import anil from "../assets/doctors/anil.webp";
+import alka from "../assets/doctors/alka.webp";
+import narendra from "../assets/doctors/narendra.webp";
+import vijay from "../assets/doctors/vijay.webp";
+import hoshiyar from "../assets/doctors/hosiyar.webp";
+import pragya from "../assets/doctors/parag.webp";
+import lakshit from "../assets/doctors/lakshit.webp";
+import vivek from "../assets/doctors/vivek.webp";
+import ashish from "../assets/doctors/ashish.webp";
+import tp from "../assets/doctors/tp.webp";
+import rahul from "../assets/doctors/rahul.webp";
+import arif from "../assets/doctors/arif.webp";
 
 // Doctors Data
 const doctors = [

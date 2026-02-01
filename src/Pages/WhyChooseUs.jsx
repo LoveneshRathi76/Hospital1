@@ -1,13 +1,13 @@
 import React from "react";
 
 // yahan apni images laga dena
-import infraImg from "../assets/hispitalimage/hr.jpeg";
-import doctorImg from "../assets/hispitalimage/doctor.jpeg";
-import labImg from "../assets/hispitalimage/nicu.jpeg";
-import emergencyImg from "../assets/hispitalimage/247.jpeg";
-import affordableImg from "../assets/hispitalimage/picu.jpeg";
-import Ambulance from "../assets/hispitalimage/2478.jpeg";
-import Card from "../assets/hispitalimage/Card.jpeg";
+import infraImg from "../assets/hispitalimage/hr.webp";
+import doctorImg from "../assets/hispitalimage/doctor.webp";
+import labImg from "../assets/hispitalimage/nicu.webp";
+import emergencyImg from "../assets/hispitalimage/247.webp";
+import affordableImg from "../assets/hispitalimage/picu.webp";
+import Ambulance from "../assets/hispitalimage/2478.webp";
+import Card from "../assets/hispitalimage/Card.webp";
 const features = [
   {
     icon: "🏥",

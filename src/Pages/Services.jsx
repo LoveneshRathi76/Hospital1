@@ -1,27 +1,27 @@
 import { useEffect, useState } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import ccu from "../assets/Services/CCU.jpeg";
-import icu from "../assets/Services/ICU.jpeg";
-import HDU from "../assets/Services/HDU.jpeg";
-import NICU from "../assets/Services/NICU.jpeg";
-import Dialysis from "../assets/Services/Dialysis.jpeg";
-import Pharmacy from "../assets/Services/Pharmacy.jpeg";
-import  Pathology from "../assets/Services/Pathology.jpeg";
-import Delivery from "../assets/Services/Delivery.jpeg";
-import  Admission from "../assets/Services/Admission.jpeg";
-import Ambuance from "../assets/hispitalimage/2478.jpeg";
-import Echo from "../assets/hispitalimage/doctor.jpeg"
-import  Ventilator from "../assets/Services/Ventilator.jpg";
-import  BiPAP from "../assets/Services/BiPAP.jpg";
-import  ECG from "../assets/Services/ECG.jpg";
-import  ABG from "../assets/Services/ABG.jpg";
-import  PFT from "../assets/Services/PFT.jpg";
-import  Bronchoscopy from "../assets/Services/Bronchoscopy.jpg";
-import  Digital from "../assets/Services/Digital Xray.jpg";
-import  TMT from "../assets/Services/TMT.jpg";
-import  Holter from "../assets/Services/Holter.jpg";
-import  Canteen from "../assets/Services/Canteen.jpeg";
+import ccu from "../assets/Services/CCU.webp";
+import icu from "../assets/Services/ICU.webp";
+import HDU from "../assets/Services/HDU.webp";
+import NICU from "../assets/Services/NICU.webp";
+import Dialysis from "../assets/Services/Dialysis.webp";
+import Pharmacy from "../assets/Services/Pharmacy.webp";
+import  Pathology from "../assets/Services/Pathology.webp";
+import Delivery from "../assets/Services/Delivery.webp";
+import  Admission from "../assets/Services/Admission.webp";
+import Ambuance from "../assets/hispitalimage/2478.webp";
+import Echo from "../assets/hispitalimage/doctor.webp";
+import  Ventilator from "../assets/Services/Ventilator.webp";
+import  BiPAP from "../assets/Services/BiPAP.webp";
+import  ECG from "../assets/Services/ECG.webp";
+import  ABG from "../assets/Services/ABG.webp";
+import  PFT from "../assets/Services/PFT.webp";
+import  Bronchoscopy from "../assets/Services/Bronchoscopy.webp";
+import  Digital from "../assets/Services/Digital Xray.webp";
+import  TMT from "../assets/Services/TMT.webp";
+import  Holter from "../assets/Services/Holter.webp";
+import  Canteen from "../assets/Services/Canteen.webp";
 import {
   FaProcedures,
   FaHeartbeat,

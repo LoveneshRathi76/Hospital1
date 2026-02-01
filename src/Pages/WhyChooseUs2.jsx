@@ -2,12 +2,12 @@ import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-import doctor1 from "../assets/hispitalimage/doctor.jpeg";
-import emergency from "../assets/hispitalimage/247.jpeg";
-import technology from "../assets/hispitalimage/nicu.jpeg";
-import care from "../assets/hispitalimage/Pasent.jpeg";
-import affordable from "../assets/hispitalimage/picu.jpeg";
-import Ambulance2 from "../assets/hispitalimage/2478.jpeg";
+import doctor1 from "../assets/hispitalimage/doctor.webp";
+import emergency from "../assets/hispitalimage/247.webp";
+import technology from "../assets/hispitalimage/nicu.webp";
+import care from "../assets/hispitalimage/Pasent.webp";
+import affordable from "../assets/hispitalimage/picu.webp";
+import Ambulance2 from "../assets/hispitalimage/2478.webp";
 const WhyChooseUs2 = () => {
   useEffect(() => {
     AOS.init({ 
