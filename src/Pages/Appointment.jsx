@@ -31,7 +31,7 @@ function Appointment() {
 ${form.message}
     `;
 
-    const whatsappURL = `https://wa.me/${9536183777}?text=${encodeURIComponent(
+    const whatsappURL = `https://wa.me/${9536216777}?text=${encodeURIComponent(
       whatsappMessage
     )}`;
 
