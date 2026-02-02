@@ -196,12 +196,12 @@ const services = [
   },
   {
     id: 18,
-    name: "24×7 Pathology Lab",
+    name: "Operating Theatre",
     icon: <FaVial />,
-    shortDesc: "All diagnostic tests available.",
+    shortDesc: "A special room in which people are operated on in a hospital",
     image: Pathology,
     fullDesc:
-      "Fully automated pathology lab for quick and accurate reports."
+      "An operation theatre (OT) is a specialized, highly sterile, and controlled environment within a hospital designed for surgical procedures. It is designed to maintain strict asepsis to prevent infection and ensure patient safety. "
   },
   {
     id: 19,
