@@ -134,12 +134,17 @@ function Contact() {
                 ></textarea>
               </div>
 
-              <button
-                type="submit"
-                className="bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition"
-              >
-                Send Message
-              </button>
+          <button
+  type="button"
+  onClick={() => {
+    window.location.href =
+      "mailto:sanskarhospitalbsr@gmail.com?subject=Appointment%20Request&body=Hello%20Hospital%20Team,";
+  }}
+  className="bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition"
+>
+  Send Message
+</button>
+
             </form>
           </div>
 

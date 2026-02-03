@@ -2,19 +2,14 @@ import React from "react";
 
 // yahan apni images laga dena
 import infraImg from "../assets/hispitalimage/hr.webp";
-import doctorImg from "../assets/hispitalimage/doctor.webp";
+import doctorImg from "../assets/hispitalimage/doctor2.webp";
 import labImg from "../assets/hispitalimage/nicu.webp";
 import emergencyImg from "../assets/hispitalimage/247.webp";
 import affordableImg from "../assets/hispitalimage/picu.webp";
 import Ambulance from "../assets/hispitalimage/2478.webp";
 import Card from "../assets/hispitalimage/Card.webp";
 const features = [
-  {
-    icon: "🏥",
-    title: "H.R. CABINE",
-    desc: "HR departments require concise, professional communication for recruitment, onboarding, and  key ôf management.",
-    image: infraImg,
-  },
+ 
   {
     icon: "👨‍⚕️",
     title: "Experienced Doctors",
@@ -40,17 +35,24 @@ const features = [
     image: affordableImg,
   },
 
+  
+   {
+    icon: "🏥",
+    title: "H.R. Department",
+    desc: "HR departments require concise, professional communication for recruitment, onboarding, and  key ôf management.",
+    image: infraImg,
+  },
+  {
+    icon: "🏥",
+    title: "PMJAY Department",
+    desc: "The Ayushman Bharat - Pradhan Mantri Jan Arogya Yojana (AB PM-JAY), commonly known as the Ayushman Card scheme, is one of the world's largest health assurance schemes, providing significant financial relief for healthcare expenses in India Here are the key points regarding the Ayushman Card based on the latest information:",
+    image: Card,
+  },
   {
     icon: "🚑",
     title: "24×7 Ambulance",
     desc: "Round-the-clock emergency services with ICU, ambulance support and rapid medical response.",
     image: Ambulance,
-  },
-  {
-    icon: "🏥",
-    title: "Ayushman Cabine",
-    desc: "The Ayushman Bharat - Pradhan Mantri Jan Arogya Yojana (AB PM-JAY), commonly known as the Ayushman Card scheme, is one of the world's largest health assurance schemes, providing significant financial relief for healthcare expenses in India Here are the key points regarding the Ayushman Card based on the latest information:",
-image: Card,
   }
 ];
 

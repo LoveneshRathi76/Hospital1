@@ -107,7 +107,7 @@ ${form.message}
                 className="border p-3 rounded-lg"
               >
                 <option value="">Select Doctor</option>
-                <option>Dr. Anil Kumar</option>
+                <option>Dr. Anil Chauhan</option>
                 <option>Dr. Alka</option>
                 <option>Dr. Arif Kamalr</option>
                 <option>Dr. Parag Agarwal</option>
@@ -117,7 +117,7 @@ ${form.message}
                 <option>Dr. Vivek Garg</option>
                 <option>Dr. Ashish Acharya</option>
                 <option>Dr. Narendra Kumar</option>
-                <option>Dr. T.V. Singh</option>
+                <option>Dr. T.B. Singh</option>
                 <option>Dr. Rahul Gupta</option>
               </select>
 

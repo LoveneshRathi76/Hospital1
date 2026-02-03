@@ -20,7 +20,7 @@ import arif from "../assets/doctors/arif.webp";
 // Doctors Data
 const doctors = [
   {
-    name: "Dr. Anil Kumar",
+    name: "Dr. Anil Chauhan",
     qualification: "MBBS, MD, DCC, (Cardiology)",
     speciality: "Managing Director",
     image: anil,
@@ -28,7 +28,7 @@ const doctors = [
   },
   {
     name: "Dr. Alka",
-    qualification: "MBBS, DGO ",
+    qualification: "MBBS, DGO (Gynecologist)",
     speciality: "Medical Director",
     image: alka,
     about: "More than 18+ years of experience in treating acute and chronic medical diseases with patient-centered care.",
@@ -42,7 +42,7 @@ const doctors = [
   },
    {
     name: "Dr. Parag Agarwal",
-    qualification: "MBBS, MS ,(General Surgeon)",
+    qualification: "MBBS, MS (General Surgeon)",
     speciality: "General & Laparoscopic Surgeon",
     image: pragya,
     about: "More than 10+ years of experience in treating acute and chronic medical diseases with patient-centered care.",
@@ -50,14 +50,14 @@ const doctors = [
  
   {
     name: "Dr. Vijay Swarup Gautam",
-    qualification: "MBBS, MD, DCH",
+    qualification: "MBBS, MD, DCH (Pediatrician)",
     speciality: "Pediatrician",
     image: vijay,
     about: "More than 18+ years of experience in treating acute and chronic medical diseases with patient-centered care.",
   },
   {
     name: "Dr. Hoshiyar Singh",
-    qualification: "MBBS, MD ,(Physician)",
+    qualification: "MBBS, MD (General Physician)",
     speciality: "General Physician",
     image: hoshiyar,
     about: "More than 25+ years of experience in treating acute and chronic medical diseases with patient-centered care.",
@@ -65,8 +65,8 @@ const doctors = [
  
   {
     name: "Dr. Lakshit Kumar",
-    qualification: "MBBS, MS (Rhino)",
-    speciality: "ENT Surgeon",
+    qualification: "MBBS, MS (ENT Specialist)",
+    speciality: "ENT Specialist",
     image: lakshit,
     about: "More than 12+ years of experience in treating acute and chronic medical diseases with patient-centered care.",
   },
@@ -86,21 +86,21 @@ const doctors = [
   },
    {
     name: "Dr. Narendra Kumar",
-    qualification: "MBBS, DMRD",
+    qualification: "MBBS, DMRD (Radiologist)",
     speciality: "Radiologist",
     image: narendra,
     about: "More than 18+ years of experience in treating acute and chronic medical diseases with patient-centered care.",
   },
   {
-    name: "Dr. T.V. Singh",
-    qualification: "MBBS, MD",
+    name: "Dr. T.B. Singh",
+    qualification: "MBBS, MD (Intensivist)",
     speciality: "Critical Care Specialist",
     image: tp,
     about: "More than 15+ years of experience in treating acute and chronic medical diseases with patient-centered care.",
   },
   {
     name: "Dr. Rahul Gupta",
-    qualification: "MD, DNB",
+    qualification: "MD, DNB (Tuberculosis)",
     speciality: "Pulmonologist",
     image: rahul,
     about: "More than 18+ years of experience in treating acute and chronic medical diseases with patient-centered care.",
