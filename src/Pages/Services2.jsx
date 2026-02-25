@@ -24,14 +24,14 @@ const services = [
     desc: "Specialized healthcare for infants and children with compassionate and child-friendly care."
   },
   {
-    icon: "🧪",
-    title: "Laboratory Tests",
-    desc: "Fully equipped pathology lab providing accurate and fast diagnostic reports under one roof."
+    icon: "🩺",
+    title: "General Physician",
+    desc: "Expert diagnosis and treatment for common illnesses, chronic diseases, and preventive healthcare."
   },
-  {
-    icon: "🚑",
-    title: "Emergency Care",
-    desc: "24×7 emergency services with ICU, ambulance, and immediate medical response facilities."
+   {
+    icon: "🚹",
+    title: "Urology",
+    desc: "Advanced care for urinary tract and male reproductive system disorders with modern treatment options."
   },
 
   // 🆕 New Services
@@ -40,15 +40,17 @@ const services = [
     title: "Gynecology",
     desc: "Comprehensive women’s healthcare including pregnancy care, gynecological disorders, and maternal services."
   },
-  {
-    icon: "🩺",
-    title: "General Physician",
-    desc: "Expert diagnosis and treatment for common illnesses, chronic diseases, and preventive healthcare."
+   {
+    icon: "🧪",
+    title: "Laboratory Tests",
+    desc: "Fully equipped pathology lab providing accurate and fast diagnostic reports under one roof."
   },
-  {
-    icon: "🚹",
-    title: "Urology",
-    desc: "Advanced care for urinary tract and male reproductive system disorders with modern treatment options."
+ 
+
+   {
+    icon: "🚑",
+    title: "Emergency Care",
+    desc: "24×7 emergency services with ICU, ambulance, and immediate medical response facilities."
   },
 ];
 
